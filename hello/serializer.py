@@ -4,4 +4,4 @@ from .models import Hello
 class HelloSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Hello
-        fields = ['name']
+        fields = ['name','id']
